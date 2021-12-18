@@ -1,0 +1,11 @@
+l<-readline(prompt="Enter the length of the room : ")
+b<-readline(prompt="Enter the breadth of the room : ")
+h<-readline(prompt="Enter the height of the room : ")
+p<-readline(prompt="Enter the cost of paint per sq units : ")
+l<-as.integer(l)
+b<-as.integer(b)
+h<-as.integer(h)
+p<-as.integer(p)
+a<-((l*h)*2)+((b*h)*2)
+c<-a*p
+print(paste("The cost of painting the walls is : ",c))
